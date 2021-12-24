@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810acc0f-6bcd-4710-b202-f6078df2c34c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/run-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debugger.js" beforeDir="false" afterPath="$PROJECT_DIR$/debugger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="22gIsv7YI3oNKutNRa5hsem7K9k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.debugger.js">
+    <configuration name="cli.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_modules/webpack-cli/bin/cli.js" working-dir="$PROJECT_DIR$/node_modules/webpack-cli/bin">
+      <method v="2" />
+    </configuration>
+    <configuration name="debugger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/debugger.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.debugger.js" />
+        <item itemvalue="Node.js.cli.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810acc0f-6bcd-4710-b202-f6078df2c34c" name="Default Changelist" comment="" />
+      <created>1640253013380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640253013380</updated>
+      <workItem from="1640253014400" duration="8829000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1640253195876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640253195876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="调试webpack的方法：&#10;1。通过chrome调试&#10;2。通过vscode调试&#10;3。通过新建debugger.js调试">
+      <created>1640330909623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640330909623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <MESSAGE value="调试webpack的方法：&#10;1。通过chrome调试&#10;2。通过vscode调试&#10;3。通过新建debugger.js调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="调试webpack的方法：&#10;1。通过chrome调试&#10;2。通过vscode调试&#10;3。通过新建debugger.js调试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1640330909496">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330909496" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1640253235417" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.810/-215.-1057.1920.1057@0.23.1440.810" timestamp="1640319518023" />
+    <state x="144" y="93" key="DiffContextDialog" timestamp="1640319515472">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="144" y="93" key="DiffContextDialog/0.23.1440.810/-215.-1057.1920.1057@0.23.1440.810" timestamp="1640319515472" />
+    <state width="1419" height="205" key="GridCell.Tab.0.bottom" timestamp="1640334055611">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640334055611" />
+    <state width="1419" height="205" key="GridCell.Tab.0.center" timestamp="1640334055607">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="205" key="GridCell.Tab.0.center/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640334055607" />
+    <state width="1419" height="205" key="GridCell.Tab.0.left" timestamp="1640334055605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="205" key="GridCell.Tab.0.left/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640334055605" />
+    <state width="1419" height="205" key="GridCell.Tab.0.right" timestamp="1640334055609">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="205" key="GridCell.Tab.0.right/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640334055609" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1640330100011">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100011" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1640330100009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100009" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1640330100009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100009" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1640330100010">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100010" />
+    <state width="1419" height="304" key="GridCell.Tab.2.bottom" timestamp="1640330100014">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100014" />
+    <state width="1419" height="304" key="GridCell.Tab.2.center" timestamp="1640330100013">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.center/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100013" />
+    <state width="1419" height="304" key="GridCell.Tab.2.left" timestamp="1640330100012">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.left/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100012" />
+    <state width="1419" height="304" key="GridCell.Tab.2.right" timestamp="1640330100014">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.2.right/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100014" />
+    <state width="1419" height="304" key="GridCell.Tab.3.bottom" timestamp="1640330100017">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.bottom/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100017" />
+    <state width="1419" height="304" key="GridCell.Tab.3.center" timestamp="1640330100016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.center/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100016" />
+    <state width="1419" height="304" key="GridCell.Tab.3.left" timestamp="1640330100015">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.left/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100015" />
+    <state width="1419" height="304" key="GridCell.Tab.3.right" timestamp="1640330100016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="304" key="GridCell.Tab.3.right/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330100016" />
+    <state x="500" y="137" key="RollbackChangesDialog" timestamp="1640319516956">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="500" y="137" key="RollbackChangesDialog/0.23.1440.810/-215.-1057.1920.1057@0.23.1440.810" timestamp="1640319516956" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1640254428335">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1640254428335" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1640330920817">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640330920817" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1640253201101" />
+  </component>
+</project>
