@@ -11,6 +11,10 @@ module.exports = {
         entry1: './src/entry1.js',
         entry2: './src/entry2.js'
     },
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: "[name].js"
+    },
     module: {
         rules: [
             {

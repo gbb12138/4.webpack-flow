@@ -15,12 +15,11 @@ function webpack(options) {
         return shellOptions;
     }, {})
     let finalOptions = {...options, ...shellOptions}
-    console.log(finalOptions, 222)
     // 2. 用上一步得到的参数初始化 Compiler 对象
     let compiler = new Compiler(finalOptions);
     // 3. 加载所有配置的插件
     finalOptions.plugins.forEach(plugin => plugin.apply(compiler));
-   
+
 
     return compiler;
 }
