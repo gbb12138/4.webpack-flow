@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="810acc0f-6bcd-4710-b202-f6078df2c34c" name="Default Changelist" comment="实现webpack:&#10;1. 加载配置中的loader&#10;2. 编译模块">
-      <change afterPath="$PROJECT_DIR$/doc/3.js" afterDir="false" />
+    <list default="true" id="810acc0f-6bcd-4710-b202-f6078df2c34c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Compilation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entry1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entry2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <updated>1640253013380</updated>
       <workItem from="1640253014400" duration="9336000" />
       <workItem from="1640609925328" duration="1279000" />
-      <workItem from="1640613642168" duration="3284000" />
+      <workItem from="1640613642168" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1640253195876</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640337536160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实现webpack:&#10;1. 加载配置中的loader&#10;2. 编译模块，调用所有匹配上的loader，执行loader，处理源代码，并重新生成源代码">
+      <created>1640617353353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640617353354</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,14 +104,16 @@
     <MESSAGE value="初始化项目" />
     <MESSAGE value="调试webpack的方法：&#10;1。通过chrome调试&#10;2。通过vscode调试&#10;3。通过新建debugger.js调试" />
     <MESSAGE value="实现webpack:&#10;1. 实现wepack类&#10;2. 实现compiler类&#10;3. 实现compilation类&#10;4. 实现开始编译，结束编译钩子函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现webpack:&#10;1. 实现wepack类&#10;2. 实现compiler类&#10;3. 实现compilation类&#10;4. 实现开始编译，结束编译钩子函数" />
+    <MESSAGE value="实现webpack:&#10;1. 加载配置中的loader&#10;2. 编译模块，调用所有匹配上的loader，执行loader，处理源代码" />
+    <MESSAGE value="实现webpack:&#10;1. 加载配置中的loader&#10;2. 编译模块，调用所有匹配上的loader，执行loader，处理源代码，并重新生成源代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现webpack:&#10;1. 加载配置中的loader&#10;2. 编译模块，调用所有匹配上的loader，执行loader，处理源代码，并重新生成源代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" width="846" height="810" key="CommitChangelistDialog2" timestamp="1640617009302">
+    <state x="297" y="23" width="846" height="810" key="CommitChangelistDialog2" timestamp="1640617353195">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="297" y="23" width="846" height="810" key="CommitChangelistDialog2/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640337536049" />
-    <state x="297" y="23" width="846" height="810" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1640617009302" />
+    <state x="297" y="23" width="846" height="810" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1640617353195" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.810/-215.-1057.1920.1057@0.23.1440.810" timestamp="1640319518023" />
     <state x="144" y="93" key="DiffContextDialog" timestamp="1640319515472">
       <screen x="0" y="23" width="1440" height="810" />
@@ -206,10 +211,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1640254428335" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1640337546874">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1640676812918">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-215.-1080.1920.1080@0.0.1440.900" timestamp="1640337546874" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1640253201101" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1640676812918" />
   </component>
 </project>
