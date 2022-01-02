@@ -22,7 +22,6 @@ class Compiler {
         this.hooks.run.call(); // 执行run钩子的回调函数
         // 5. 根据配置中的entry找出入口文件
         const onCompiled = (err, stats, fileDependencies) => {
-            console.log('onCompiled', fileDependencies, '555');
             // 10. 在确定好输出内容后，根据配置确定输出的路径和文件名，把文件内容写入到文件系统
             for(let filename in stats.assets) {
                 let filePath = path.join(this.options.output.path, filename); // 输出路径

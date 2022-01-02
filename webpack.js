@@ -19,8 +19,6 @@ function webpack(options) {
     let compiler = new Compiler(finalOptions);
     // 3. 加载所有配置的插件
     finalOptions.plugins.forEach(plugin => plugin.apply(compiler));
-
-
     return compiler;
 }
 

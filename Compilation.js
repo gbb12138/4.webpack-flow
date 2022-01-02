@@ -20,7 +20,7 @@ class Compilation{
         this.modules = []; // 存放本次编译所有的模块
         this.fileDependencies = []; // 编译入口文件以及依赖的所有文件
         this.chunks = []; // 放所有的代码块
-        this.assets = {}; // 存放每个出口的打包后生成的代码
+        this.assets = {}; // 是一个对象，存放每个出口的打包后生成的代码
         this.hooks = {
             chunkAsset: new SyncHook(["chunk", "filename"])
         }
@@ -50,13 +50,13 @@ class Compilation{
                 modules: this.modules.filter(module => module.names.includes(entryName)), //依赖的模块
             }
             this.chunks.push(chunk);
-            // 9. 再把每个 Chunk 转换成一个单独的文件加入到输出列表
-            this.chunks.forEach(chunk => {
-                let filename = this.options.output.filename.replace('[name]', chunk.name);
-                this.hooks.chunkAsset.call(chunk, filename);
-                this.assets[filename] = getSource(chunk);
-            })
         }
+        // 9. 再把每个 Chunk 转换成一个单独的文件加入到输出列表
+        this.chunks.forEach(chunk => {
+            let filename = this.options.output.filename.replace('[name]', chunk.name);
+            this.hooks.chunkAsset.call(chunk, filename);
+            this.assets[filename] = getSource(chunk);
+        })
         // 错误对象，stats， 依赖的文件
         onCompiled(null, {
             module: this.modules,
