@@ -1,4 +1,5 @@
 const path = require('path');
+const {SyncHook} = require('tapable');
 const baseDir = toUnixPath(process.cwd()); // 当前的工作目录 /Users/tal/project/study/webpack/4.flow/
 const fs = require('fs');
 const parser = require('@babel/parser'); // 生成ast
@@ -20,6 +21,9 @@ class Compilation{
         this.fileDependencies = []; // 编译入口文件以及依赖的所有文件
         this.chunks = []; // 放所有的代码块
         this.assets = {}; // 存放每个出口的打包后生成的代码
+        this.hooks = {
+            chunkAsset: new SyncHook(["chunk", "filename"])
+        }
     }
 
     build (onCompiled) {
@@ -49,6 +53,7 @@ class Compilation{
             // 9. 再把每个 Chunk 转换成一个单独的文件加入到输出列表
             this.chunks.forEach(chunk => {
                 let filename = this.options.output.filename.replace('[name]', chunk.name);
+                this.hooks.chunkAsset.call(chunk, filename);
                 this.assets[filename] = getSource(chunk);
             })
         }

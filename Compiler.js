@@ -12,7 +12,8 @@ class Compiler {
         // 存的时当前的Compiler的所有钩子
         this.hooks = {
             run: new SyncHook(), // 开始编译的时候触发
-            done: new SyncHook() // 编译完成的时候触发
+            done: new SyncHook(), // 编译完成的时候触发
+            compilation: new SyncHook(["compilation", "params"])
         }
     }
 
@@ -43,6 +44,7 @@ class Compiler {
     compile (onCompiled) {
         // 以后每次开启一次新的编译，都会创建一个新的Compilation类的实例
         let compilation = new Compilation(this.options);
+        this.hooks.compilation.call(compilation)
         compilation.build(onCompiled);
     }
 }
